@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Simple IO App Tester</title>
+  </head>
+  
+  <script src="overwolfplugin.js"></script>
+  <script src="main.js"></script> 
+  
+  <body>
+    <h1 id="title">Teamspeak plugin sample:
+	<label id="status"> </label>
+	</h1>
+	
+    <hr>
+	<div>
+	<button id="loadPluginBth" type="button" onclick="loadPlugin()">Load plugin</button>
+	<button id="MuteMic" type="button" onclick="muteMic()">Mute mic</button>
+	<button id="MuteSP" type="button" onclick="muteSpeak()">Mute speakers</button>
+	<button type="button" onclick="setAway()">Set Away</button>
+	<button type="button" onclick="sendTextMessageToChannel()">Channel Message</button>
+	</div>
+	 <hr>
+	
+	<label>bookmarks:<label>
+	<div>
+	<select id="bookmarks" style="width: 200px;" size=20>
+	</select>
+	<select id="channels" style="width: 200px;" size= 20>
+	</select>
+	</div>
+    <div id="messages"></div>
+  </body>
+
+</html>
